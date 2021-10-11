@@ -1,0 +1,40 @@
+footer{
+    background-color: #fcf7da;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 95%;
+    margin: 0 30px;
+    display: flex;
+    padding: 0 250px;
+}
+.item-footer{
+    display: flex;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 300px;
+}
+.item-footer p{
+    margin-left: 10px;
+}
+.icon-footer{
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px){
+    footer{
+        padding:0;
+        flex-direction: column;
+        position: initial;
+        margin: 0;
+        margin-left: 5px;
+        margin-top: 60px;
+    }
+    .item-footer{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .item-footer p{
+        margin-top: 10px;
+    }
+}
